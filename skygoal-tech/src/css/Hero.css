@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+.hero-section{
+    background-color: var(--secondary-bg);
+    height: 80vh;
+    padding: 140px 110px;
+    justify-content: space-between;
+}
+.hero-texts{
+    width: 50%;
+}
+.hero-texts > .heading{
+    font-size: 80px;
+    line-height: 100px;
+}
+.first-heading{
+    font-weight: normal;
+}
+.second-heading{
+    font-weight: normal;
+}
+.hero-texts > .top{
+    font-size: 20px;
+}
+.hero-texts > .bottom{
+    color: #505C59;
+    margin-bottom: 2rem;
+}
+.hero-img{
+    margin-top: -6rem;
+    width: 50%;
+    position: relative;
+}
+.hero-img > img{
+    width: 440px;
+    border-radius: 0 0 47% 47%;
+    z-index: 9;
+}
+
+.hero-img > .gcr{
+    background: #87CC81;
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    bottom: 3.5rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+@media screen and (max-width:850px) {
+    .hero-section{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 140px 2rem ;
+    }
+    .hero-texts{
+        width: 100%;
+    }
+    .hero-img{
+        margin-top: 1rem;
+    }
+}

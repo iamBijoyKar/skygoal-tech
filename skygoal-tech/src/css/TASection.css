@@ -1,0 +1,26 @@
+.ta-section{
+    padding: 200px;
+    justify-content: space-between;
+}
+.ta-section > .cards{
+    gap: 50px;
+}
+.ta-section > .texts > .first-heading{
+    font-size: 30px;
+}
+.ta-section > .texts > p{
+    font-size: 20px;
+}
+.ta-section > .texts > ul{
+    margin: 20px 20px 50px 20px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 850px){
+    .ta-section{
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+        align-items: center;
+    }
+}

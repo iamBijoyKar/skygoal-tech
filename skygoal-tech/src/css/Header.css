@@ -1,0 +1,25 @@
+.header{
+    background-color: var(--primary-bg);
+    justify-content: space-between;
+    padding: 1rem 300px;
+    align-items: center;
+    font-size: 14px;
+
+}
+.nav-bar > ul{
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.nav-bar > .nav-link{
+    color: #262626;
+}
+
+.offers-link{
+    color: #7D7D7D;
+}
+@media screen and (max-width:850px){
+    .header{
+        padding: 1rem 5rem;
+    }
+}

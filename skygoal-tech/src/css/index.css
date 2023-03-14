@@ -1,0 +1,54 @@
+:root {
+  --primary-bg: #F5F5F5;
+  --secondary-bg: #fdfbf4;
+  --btn-orange: #F27A44;
+}
+@font-face{
+  font-family: 'Poppins';
+  src: url(./../fonts/Poppins-Regular.ttf);
+}
+*{
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+
+
+
+/* Some custom utility classes */
+.flex{
+  display: flex;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.gap-1{
+  gap: 1rem;
+}
+.gap-2{
+  gap: 2rem;
+}
+.center-both{
+  justify-content: center;
+  align-items: center;
+}
+.center-j{
+  justify-content: center;
+}
+.center-a{
+  align-items: center;
+}
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}

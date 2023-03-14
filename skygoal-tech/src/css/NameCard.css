@@ -1,0 +1,15 @@
+.name-card{
+    width: 360px;
+    height: px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 47px 152px rgba(0, 0, 0, 0.09), 0px 3.12555px 5.92563px rgba(0, 0, 0, 0.0363503);
+    padding: .5rem;
+    gap: 10px;
+}
+
+.badge-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
