@@ -1,0 +1,41 @@
+.discount-section{
+    padding: 117px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.discount-section > .texts > .first-heading{
+    font-size: 40px;
+}
+.discount-section > .texts > .second-heading{
+    font-size: 30px;
+}
+.discount-section > .texts > ul{
+    margin-bottom: 60px;
+    margin-left: 2rem;
+}
+.discount-section > .img-div{
+    width: 50%;
+    margin-top: -2rem;
+    justify-content: center;
+}
+.img-div img{
+    width: 360px;
+}
+
+@media screen and (max-width:950px){
+    .discount-section{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:550px){
+    .discount-section{
+        padding: 117px 2rem;
+    }
+    .discount-section > .texts > .first-heading{
+        font-size: 25px;
+    }
+    .discount-section > .texts > .second-heading{
+        font-size: 20px;
+    }
+}

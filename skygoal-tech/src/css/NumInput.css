@@ -1,0 +1,22 @@
+.input-container{
+    margin: 1rem;
+}
+
+.input-container > img{
+    background-color:  #EBEBEB;
+    width: 25px;
+}
+.input-container > img:nth-of-type(1){
+    border: 5px 0 0 5px;
+}
+.input-container > img:nth-of-type(2){
+    border: 0 5px 5px 0;
+}
+
+.input-container > input{
+    text-align: center;
+    padding: 6px 10px;
+    border: none;
+    background-color: #F3F3F3;
+    outline: none;
+}

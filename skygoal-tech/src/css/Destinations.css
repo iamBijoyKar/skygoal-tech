@@ -1,0 +1,31 @@
+.destinations{
+    padding:  0 0 4rem 119px;
+}
+
+.destinations > .heading{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+.slides{
+    gap: 1rem;
+    width: calc(100vw-119px);
+    overflow-x: auto;
+    margin-bottom: 4rem;
+}
+.slides::-webkit-scrollbar{
+    display: none;
+}
+.slider > .controls{
+    gap: 10px;
+}
+.slider > .controls > .nav{
+    color: #262626;
+    font-size: 1.3rem;
+}
+.nav > span{
+    color: #7D7D7D;
+    font-size: 1rem;
+}
+.arrow{
+    cursor: pointer;
+}

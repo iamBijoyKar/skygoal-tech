@@ -1,0 +1,25 @@
+.testi-section{
+    padding: 5rem 176px;
+}
+.testi-section > .heading{
+    font-size: 40px;
+    text-align: center;
+}
+.testi-section > .testimonials{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 950px) {
+    .testimonials{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .testi-section{
+        padding: 5rem 2rem;
+    }
+    .testimonials{
+        gap: 1rem;
+    }
+}

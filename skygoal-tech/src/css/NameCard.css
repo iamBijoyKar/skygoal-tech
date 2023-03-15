@@ -13,3 +13,14 @@
     height: 80px;
     border-radius: 50%;
 }
+
+@media screen and (max-width:950px){
+    .name-card{
+        width: 430px;
+    }
+}
+@media screen and (max-width:500px){
+    .name-card{
+        width: 330px;
+    }
+}

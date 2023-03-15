@@ -1,5 +1,5 @@
 .ta-section{
-    padding: 200px;
+    padding: 100px 200px 100px 200px;
     justify-content: space-between;
 }
 .ta-section > .cards{
@@ -16,11 +16,14 @@
     font-size: 16px;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 950px){
     .ta-section{
         flex-direction: column;
         padding: 2rem;
         gap: 3rem;
         align-items: center;
+    }
+    .ta-section > .texts > p{
+        font-size: .8rem;
     }
 }

@@ -1,0 +1,18 @@
+.testi-card{
+    width: 269px;
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+.testi-card > div{
+    width: fit-content;
+}
+.testi-card .name::after{
+    content: "";
+    width: 100%;
+    display: block;
+    border-bottom: solid 2px #a0cd9eb0;
+}
+.testi-card img{
+    width: 100px;
+}

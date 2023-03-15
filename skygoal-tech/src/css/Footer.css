@@ -1,0 +1,41 @@
+footer{
+    align-items: center;
+}
+footer > .heading{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+footer > .des{
+    margin-bottom: 52px;
+    width: 40%;
+    text-align: center;
+}
+footer > .links{
+    gap: 40px;
+    margin-bottom: 144px;
+    position: relative;
+}
+.last::after{
+    content: "";
+    height: 20px;
+    display: block;
+    border-right: 1px solid black;
+    position: absolute;
+    top: 3px;
+    right: -2rem;
+} 
+@media screen and (max-width:950px) {
+    footer > .heading{
+        font-size: 1rem;
+    }
+    footer > .links{
+       flex-wrap: wrap;
+    }
+    .last::after{
+        display: none;
+    }
+    footer > .des{
+        font-size: .8rem;
+    }
+}
