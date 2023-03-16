@@ -24,6 +24,8 @@ export default function DiscountSection(){
             </div>
             <div className="img-div flex">
                 <img src={imgPerson} alt="" />
+                <span></span>
+                <span></span>
             </div>
         </section>
     )

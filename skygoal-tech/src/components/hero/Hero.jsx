@@ -23,8 +23,7 @@ export default function Hero(){
                 <OrBtn text={'SIGN UP'}/>
             </div>
             <div className="hero-img flex center-both">
-                <img src={heroImg} alt="hero image" className='hero-img' />
-                <div className="gcr"></div>
+                <img src={heroImg} alt="hero image" className='hero-img_' />
             </div>
         </section>
     )

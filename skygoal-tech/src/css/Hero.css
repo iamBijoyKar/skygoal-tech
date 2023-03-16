@@ -38,15 +38,15 @@
     border-radius: 0 0 47% 47%;
     z-index: 9;
 }
-
-.hero-img > .gcr{
-    background: #87CC81;
-    width: 440px;
-    height: 440px;
+.hero-img::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: #87CC81;
     position: absolute;
-    bottom: 3.5rem;
     border-radius: 50%;
-    z-index: 1;
+    bottom: 2rem;
 }
 @media screen and (max-width:950px) {
     .hero-section{

@@ -22,6 +22,43 @@
 .img-div img{
     width: 360px;
 }
+.img-div{
+    position: relative;
+}
+.discount-section .img-div::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: #F8E27E;
+    position: absolute;
+    border-radius: 0 0 200px 200px;
+    bottom: 10px;
+    transform: rotate(-25deg);
+    z-index: -9;
+}
+.discount-section .img-div span{
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+    position: absolute;
+}
+.discount-section .img-div span:nth-of-type(1){
+    top: 7rem;
+    border-radius: 40px;
+    transform: rotate(-16deg);
+    background: #BE554B;
+    z-index: -9;
+}
+.discount-section .img-div span:nth-of-type(2){
+    top: 15rem;
+    left:6rem;
+    border-radius: 40px;
+    transform: rotate(-16deg);
+    background: #505C59;
+    z-index: -9;
+}
+
 
 @media screen and (max-width:950px){
     .discount-section{
