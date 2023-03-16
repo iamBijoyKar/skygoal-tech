@@ -1,5 +1,4 @@
 import './../../css/Destinations.css';
-import cardImg from './../../assets/card-image.png';
 import ra from './../../assets/v-right.png';
 import la from './../../assets/v-left.png';
 import DestinationCard from './DestinationCard';
@@ -39,11 +38,11 @@ export default function Destinations(){
             </h1>
             <div className="slider" id='slider'>
                 <div className="slides flex" id='slides' >
-                    <DestinationCard heading={'Harvard University'} img={cardImg} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={cardImg} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={cardImg} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={cardImg} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={cardImg} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
                 </div>
                 <div className="controls flex center-both">
                     <img src={la} alt="" className='arrow' onClick={leftSlide} />

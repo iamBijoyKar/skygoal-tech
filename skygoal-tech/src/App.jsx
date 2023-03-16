@@ -17,7 +17,7 @@ function App() {
         <TASection/>
         <Destinations/>
         <DiscountSection/>
-        {/* <BookingSection/> */}
+        <BookingSection/>
         <TestimonialSection/>
         <Footer/>
     </div>

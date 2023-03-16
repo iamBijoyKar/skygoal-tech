@@ -1,22 +1,26 @@
 .input-container{
-    margin: 1rem;
+    width: 100%;
 }
 
-.input-container > img{
+.minus{
+    border-radius: 10px 0 0 10px ;
+}
+.plus{
+    border-radius: 0 10px 10px 0 ;
+}
+.input-container img{
     background-color:  #EBEBEB;
     width: 25px;
-}
-.input-container > img:nth-of-type(1){
-    border: 5px 0 0 5px;
-}
-.input-container > img:nth-of-type(2){
-    border: 0 5px 5px 0;
+    height: 40px;
+    padding: 0 4px;
 }
 
 .input-container > input{
     text-align: center;
-    padding: 6px 10px;
+    padding: 9px 10px;
     border: none;
     background-color: #F3F3F3;
     outline: none;
+    border-radius: 0;
+    width: 60%;
 }

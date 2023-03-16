@@ -1,0 +1,22 @@
+.booking-section{
+    padding: 5rem 10rem 5rem 5rem;
+    justify-content: space-between;
+}
+.booking-section img{
+    transform: scale(1.2);;
+}
+@media screen and (max-width:950px) {
+    .booking-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .booking-section > .img-div > img{
+        display: none;
+    }
+}
+@media screen and (max-width:550px) {
+    .booking-section{
+        padding: 2rem;
+    }
+}
