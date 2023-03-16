@@ -78,12 +78,12 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     .hero-section{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 70px 1rem 140px 1rem ;
+        padding: 70px 1rem 80px 1rem ;
         margin-bottom: 3rem;
     }
     .hero-texts{

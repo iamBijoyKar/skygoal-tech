@@ -41,4 +41,7 @@
     .destinations > .heading{
         font-size: 26px;
     }
+    .slides{
+        margin-bottom: 0;
+    }
 }
