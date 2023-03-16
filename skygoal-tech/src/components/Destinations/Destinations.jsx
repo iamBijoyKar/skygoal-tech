@@ -39,9 +39,9 @@ export default function Destinations(){
             <div className="slider" id='slider'>
                 <div className="slides flex" id='slides' >
                     <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
-                    <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image-2.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image-3.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
+                    <DestinationCard heading={'Harvard University'} img={ "/card-image-4.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
                     <DestinationCard heading={'Harvard University'} img={ "/card-image.png"} loc={'Cambridge, Massachusetts, UK'} rateings={'4.8'}/>
                 </div>
                 <div className="controls flex center-both">

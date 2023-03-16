@@ -15,10 +15,10 @@ export default function DiscountSection(){
                 </h2>
                 <ul>
                     <li>Loremfg ag adg h ad g fh ds</li>
-                    <li>Loremfg ag adg h ad g fh ds</li>
-                    <li>Loremfg ag adg h ad g fh ds</li>
-                    <li>Loremfg ag adg h ad g fh ds</li>
-                    <li>Loremfg ag adg h ad g fh ds</li>
+                    <li>Massa quis natoque sit quam</li>
+                    <li>Eros non pellentesque elit</li>
+                    <li>ortor id euismod habitant</li>
+                    <li>Sed suspendisse id in ultrices</li>
                 </ul>
                 <OrBtn text={'Explore More'} />
             </div>

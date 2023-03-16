@@ -67,12 +67,15 @@
 }
 @media screen and (max-width:550px){
     .discount-section{
-        padding: 117px 2rem;
+        padding: 40px 2rem;
     }
     .discount-section > .texts > .first-heading{
         font-size: 25px;
     }
     .discount-section > .texts > .second-heading{
         font-size: 20px;
+    }
+    .discount-section .img-div{
+        display: none;
     }
 }

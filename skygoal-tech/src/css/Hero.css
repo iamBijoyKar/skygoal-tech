@@ -107,11 +107,9 @@
         border-radius: 0 0 47% 47%;
         z-index: 9;
     }
-    .hero-img > .gcr{
-        background: #87CC81;
-        width: 240px;
-        height: 240px;
-        position: absolute;
-        bottom: 1rem;
+    .hero-img::after{
+        width: 200px;
+        height: 200px;
+        bottom: 2rem;
     }
 }

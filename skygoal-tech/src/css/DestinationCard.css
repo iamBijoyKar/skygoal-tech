@@ -21,3 +21,12 @@
 .content > p{
     font-size: 14px;
 }
+@media screen and (max-width:550px) {
+    .des-card{
+        transform: scale(.7);
+        margin: 0 -2.5rem;
+    }
+    .destinations > .heading{
+        font-size: 26px;
+    }
+}

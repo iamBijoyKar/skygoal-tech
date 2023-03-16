@@ -29,3 +29,16 @@
 .arrow{
     cursor: pointer;
 }
+@media screen and (max-width:950px) {
+    .destinations{
+        padding: 4rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .destinations{
+        padding: 2rem;
+    }
+    .destinations > .heading{
+        font-size: 26px;
+    }
+}

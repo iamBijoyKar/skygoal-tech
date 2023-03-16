@@ -14,7 +14,17 @@
 .nav-bar > .nav-link{
     color: #262626;
 }
-
+.nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: .4s;
+}
+.nav-link:hover:after{
+    width: 100%;
+}
 .offers-link{
     color: #7D7D7D;
 }
