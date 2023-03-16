@@ -1,5 +1,4 @@
 import './../../css/DestinationCard.css';
-import icon from './../../assets/icons.png';
 export default function({heading,loc,img,rateings}){
 
 
@@ -11,7 +10,7 @@ export default function({heading,loc,img,rateings}){
                     <h1>{heading}</h1>
                     <div className="flex center-a">
                         <p>{loc}</p>
-                        <img src={icon} alt="" />
+                        <img src={'/icons.png'} alt="" />
                     </div>
                 </div>
             </div>
