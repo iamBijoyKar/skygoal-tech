@@ -5,13 +5,28 @@
 .booking-section img{
     transform: scale(1.2);;
 }
+.booking-section .img-div{
+    position: relative;
+}
+.booking-section .img-div::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 450px;
+    background-color: #505C59;
+    position: absolute;
+    top: 3rem;
+    transform: rotate(30deg);
+    border-radius: 30% 20% 50% 20%;
+    z-index: -9;
+}
 @media screen and (max-width:950px) {
     .booking-section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .booking-section > .img-div > img{
+    .booking-section > .img-div{
         display: none;
     }
 }
